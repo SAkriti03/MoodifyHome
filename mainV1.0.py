@@ -11,11 +11,11 @@ from PIL import Image
 #import musichub  # Import Musichub.py properly
 #import podcast  # ✅ Import Podcast module
 
-print(dir(musichub))  # This will list all attributes of the module
+#print(dir(musichub))  # This will list all attributes of the module
 
 
 import streamlit as st
-import musichub  # ✅ Ensure lowercase filename
+#import musichub  # ✅ Ensure lowercase filename
 
 # ✅ Ensure this is the FIRST Streamlit command
 st.set_page_config(page_title="Moodify 🎵", layout="wide", initial_sidebar_state="expanded")
