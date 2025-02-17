@@ -8,8 +8,8 @@ import streamlit as st
 import os
 import pandas as pd
 from PIL import Image
-import musichub  # Import Musichub.py properly
-import podcast  # ✅ Import Podcast module
+#import musichub  # Import Musichub.py properly
+#import podcast  # ✅ Import Podcast module
 
 print(dir(musichub))  # This will list all attributes of the module
 
