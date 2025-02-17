@@ -4,7 +4,7 @@ numpy
 seaborn
 plotly
 matplotlib
+matplotlib.pyplot
 pyplot
 scikit-learn
-musichub
-podcast
+
