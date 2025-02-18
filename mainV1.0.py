@@ -10,7 +10,7 @@ import pandas as pd
 from PIL import Image
 #import pages.musichub  # Import Musichub.py properly
 from pages.musichub import music_hub_page
-from pages.podcast import podcast
+from pages.podcast import podcast_page
 #import pages.podcast  # ✅ Import Podcast module
 
 #print(dir(musichub))  # This will list all attributes of the module
