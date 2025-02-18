@@ -42,10 +42,10 @@ if st.session_state["page"] != page:
 
 # ✅ Load the correct page dynamically
 if st.session_state["page"] == "Music Hub":
-    pages.music_hub_page()
+    music_hub_page()
 
 elif st.session_state["page"] == "Podcast":
-    pages.podcast_page()  # ✅ Call Podcast function properly
+    podcast_page()  # ✅ Call Podcast function properly
 
 else:
     st.write("🏠 Welcome to the Home Page!")  # Placeholder for Home Page
