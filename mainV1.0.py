@@ -8,8 +8,10 @@ import streamlit as st
 import os
 import pandas as pd
 from PIL import Image
-import pages.musichub  # Import Musichub.py properly
-import pages.podcast  # ✅ Import Podcast module
+#import pages.musichub  # Import Musichub.py properly
+from pages.musichub import music_hub_page
+from pages.podcast import podcast
+#import pages.podcast  # ✅ Import Podcast module
 
 #print(dir(musichub))  # This will list all attributes of the module
 
