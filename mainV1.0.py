@@ -8,8 +8,8 @@ import streamlit as st
 import os
 import pandas as pd
 from PIL import Image
-#import musichub  # Import Musichub.py properly
-#import podcast  # ✅ Import Podcast module
+import pages.musichub  # Import Musichub.py properly
+import pages.podcast  # ✅ Import Podcast module
 
 #print(dir(musichub))  # This will list all attributes of the module
 
@@ -40,10 +40,10 @@ if st.session_state["page"] != page:
 
 # ✅ Load the correct page dynamically
 if st.session_state["page"] == "Music Hub":
-    musichub.music_hub_page()
+    pages.music_hub_page()
 
 elif st.session_state["page"] == "Podcast":
-    podcast.podcast_page()  # ✅ Call Podcast function properly
+    pages.podcast_page()  # ✅ Call Podcast function properly
 
 else:
     st.write("🏠 Welcome to the Home Page!")  # Placeholder for Home Page
